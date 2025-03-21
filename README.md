@@ -28,13 +28,13 @@
 - [About](#about)
 - [Getting Started](#getting-started)
   - [Usage](#usage)
-  - [Example](#example)
-    - [Prerequisites](#prerequisites)
-  - [Development](#development)
-  - [License](#license)
-  - [Acknowledgements](#acknowledgements)
-  - [Citation](#citation)
-  - [Contacts](#contacts)
+- [Example](#example)
+  - [Prerequisites](#prerequisites)
+- [Development](#development)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
+- [Contacts](#contacts)
 
 </details>
 
@@ -57,7 +57,6 @@
 ## Getting Started
 
 ### Usage
----
 
 1. Install
 
@@ -119,10 +118,9 @@ print(completion.choices[0].message.tool_calls)
 }]
 ```
 
-### Example
----
+## Example
 
-#### Prerequisites
+### Prerequisites
 
 Make sure you have installed both [Poetry](https://python-poetry.org/) and [Ollama](https://ollama.com/).
 
@@ -148,8 +146,7 @@ make examples
 
 >**tool.py** is just an ordinary Python function. However, after adding _ToolsBridge.register_, this function evolves into an AI tool (**ai_tool.py**) that can be passed to an LLM for collaborative processing, allowing it to demonstrate its capabilities (or intelligence) in the right context. This transforms it from a pure code-level function call into an interactive conversation between humans and AI. Instead of merely returning a function output, the user receives meaningful answers.
 
-### Development
----
+## Development
 
 This project welcomes contributions and suggestions. Before making any changes, please follow the steps below
 
@@ -161,13 +158,11 @@ make format # formatter
 make lint   # linter
 ```
 
-### License
----
+## License
 
 This project is licensed under the **Apache License V2.0**. See [LICENSE](LICENSE) for more information.
 
-### Acknowledgements
----
+## Acknowledgements
 
 ​A special thanks to these outstanding open-source community.
 
@@ -177,8 +172,7 @@ This project is licensed under the **Apache License V2.0**. See [LICENSE](LICENS
 - [pydantic](https://github.com/pydantic/pydantic)
 - [poetry](https://github.com/python-poetry/poetry)
 
-### Citation
----
+## Citation
 
 If you use [**aitools-bridge**](https://github.com/m0reA1/aitools-bridge) in your project, please cite:
 
@@ -192,7 +186,6 @@ If you use [**aitools-bridge**](https://github.com/m0reA1/aitools-bridge) in you
 }
 ```
 
-### Contacts
----
+## Contacts
 
 If you have any questions, please contact us at [more.aitools@gmail.com](more.aitools@gmail.com).

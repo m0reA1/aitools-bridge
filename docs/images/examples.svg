@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 496 209" width="496" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="62" rows="12"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 9327ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+8.609%{transform:translateY(-238px)}
+9.167%{transform:translateY(-476px)}
+10.314%{transform:translateY(-714px)}
+10.947%{transform:translateY(-952px)}
+13.037%{transform:translateY(-1190px)}
+16.372%{transform:translateY(-1428px)}
+18.934%{transform:translateY(-1666px)}
+21.540%{transform:translateY(-1904px)}
+23.416%{transform:translateY(-2142px)}
+24.799%{transform:translateY(-2380px)}
+26.589%{transform:translateY(-2618px)}
+27.512%{transform:translateY(-2856px)}
+28.777%{transform:translateY(-3094px)}
+31.714%{transform:translateY(-3332px)}
+31.736%{transform:translateY(-3570px)}
+42.179%{transform:translateY(-3808px)}
+42.297%{transform:translateY(-4046px)}
+78.300%{transform:translateY(-4284px)}
+78.943%{transform:translateY(-4522px)}
+89.278%{transform:translateY(-4760px)}
+100.000%{transform:translateY(-4760px)}
+            }
+
+            #screen_view {
+                animation-duration: 9327ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               gjm8 color theme (source: https://terminal.sexy/) */
+            .foreground {fill: #c5c5c5;}
+            .background {fill: #1c1c1c;}
+            .color0 {fill: #1c1c1c;}
+            .color1 {fill: #ff005b;}
+            .color2 {fill: #cee318;}
+            .color3 {fill: #ffe755;}
+            .color4 {fill: #048ac7;}
+            .color5 {fill: #833c9f;}
+            .color6 {fill: #0ac1cd;}
+            .color7 {fill: #e5e5e5;}
+            .color8 {fill: #1c1c1c;}
+            .color9 {fill: #ff005b;}
+            .color10 {fill: #cee318;}
+            .color11 {fill: #ffe755;}
+            .color12 {fill: #048ac7;}
+            .color13 {fill: #833c9f;}
+            .color14 {fill: #0ac1cd;}
+            .color15 {fill: #e5e5e5;}
+
+            @keyframes progress-bar-animation {
+                from {
+                    transform: translate(0px, calc(100% - 5px)) scale(0, 1);
+                }
+                to {
+                    transform: translate(0px, calc(100% - 5px)) scale(1, 1);
+                }
+            }
+            #progress-bar {
+                animation-duration: var(--animation-duration);
+                animation-iteration-count: infinite;
+                animation-name: progress-bar-animation;
+                animation-timing-function: linear;
+                transform-origin: left;
+            }
+        </style>
+    </defs>
+    <rect width="100%" height="100%" class="background"/>
+    <svg id="screen" width="496" height="204" viewBox="0 0 496 204" preserveAspectRatio="xMidYMin slice"><rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text x="0" textLength="16" class="foreground"># </text><text x="16" textLength="8" class="background"> </text></g><g id="g2"><text x="0" textLength="24" class="foreground"># m</text><text x="24" textLength="8" class="background"> </text></g><g id="g3"><text x="0" textLength="32" class="foreground"># ma</text><text x="32" textLength="8" class="background"> </text></g><g id="g4"><text x="0" textLength="40" class="foreground"># mak</text><text x="40" textLength="8" class="background"> </text></g><g id="g5"><text x="0" textLength="48" class="foreground"># make</text><text x="48" textLength="8" class="background"> </text></g><g id="g6"><text x="0" textLength="56" class="foreground"># make </text><text x="56" textLength="8" class="background"> </text></g><g id="g7"><text x="0" textLength="64" class="foreground"># make e</text><text x="64" textLength="8" class="background"> </text></g><g id="g8"><text x="0" textLength="72" class="foreground"># make ex</text><text x="72" textLength="8" class="background"> </text></g><g id="g9"><text x="0" textLength="80" class="foreground"># make exa</text><text x="80" textLength="8" class="background"> </text></g><g id="g10"><text x="0" textLength="88" class="foreground"># make exam</text><text x="88" textLength="8" class="background"> </text></g><g id="g11"><text x="0" textLength="96" class="foreground"># make examp</text><text x="96" textLength="8" class="background"> </text></g><g id="g12"><text x="0" textLength="104" class="foreground"># make exampl</text><text x="104" textLength="8" class="background"> </text></g><g id="g13"><text x="0" textLength="112" class="foreground"># make example</text><text x="112" textLength="8" class="background"> </text></g><g id="g14"><text x="0" textLength="120" class="foreground"># make examples</text><text x="120" textLength="8" class="background"> </text></g><g id="g15"><text x="0" textLength="120" class="foreground"># make examples</text></g><g id="g16"><text x="0" textLength="8" class="background"> </text></g><g id="g17"><text x="0" textLength="272" class="foreground">poetry run python examples/tool.py</text></g><g id="g18"><text x="0" textLength="48" class="foreground">133934</text></g><g id="g19"><text x="0" textLength="296" class="foreground">poetry run python examples/ai_tool.py</text></g><g id="g20"><text x="0" textLength="448" class="foreground">The GitHub repository 'ollama/ollama' has 133,934 stars.</text></g><g id="g21"><text x="0" textLength="16" class="foreground"># </text></g></defs><g id="screen_view"><g><rect x="16" y="0" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="0"/></g><g><rect x="24" y="238" width="8" height="17" class="foreground"/><use xlink:href="#g2" y="238"/></g><g><rect x="32" y="476" width="8" height="17" class="foreground"/><use xlink:href="#g3" y="476"/></g><g><rect x="40" y="714" width="8" height="17" class="foreground"/><use xlink:href="#g4" y="714"/></g><g><rect x="48" y="952" width="8" height="17" class="foreground"/><use xlink:href="#g5" y="952"/></g><g><rect x="56" y="1190" width="8" height="17" class="foreground"/><use xlink:href="#g6" y="1190"/></g><g><rect x="64" y="1428" width="8" height="17" class="foreground"/><use xlink:href="#g7" y="1428"/></g><g><rect x="72" y="1666" width="8" height="17" class="foreground"/><use xlink:href="#g8" y="1666"/></g><g><rect x="80" y="1904" width="8" height="17" class="foreground"/><use xlink:href="#g9" y="1904"/></g><g><rect x="88" y="2142" width="8" height="17" class="foreground"/><use xlink:href="#g10" y="2142"/></g><g><rect x="96" y="2380" width="8" height="17" class="foreground"/><use xlink:href="#g11" y="2380"/></g><g><rect x="104" y="2618" width="8" height="17" class="foreground"/><use xlink:href="#g12" y="2618"/></g><g><rect x="112" y="2856" width="8" height="17" class="foreground"/><use xlink:href="#g13" y="2856"/></g><g><rect x="120" y="3094" width="8" height="17" class="foreground"/><use xlink:href="#g14" y="3094"/></g><g><use xlink:href="#g15" y="3332"/><rect x="0" y="3349" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="3349"/></g><g><use xlink:href="#g15" y="3570"/><use xlink:href="#g17" y="3587"/><rect x="0" y="3604" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="3604"/></g><g><use xlink:href="#g15" y="3808"/><use xlink:href="#g17" y="3825"/><use xlink:href="#g18" y="3842"/><rect x="0" y="3859" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="3859"/></g><g><use xlink:href="#g15" y="4046"/><use xlink:href="#g17" y="4063"/><use xlink:href="#g18" y="4080"/><use xlink:href="#g19" y="4097"/><rect x="0" y="4114" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="4114"/></g><g><use xlink:href="#g15" y="4284"/><use xlink:href="#g17" y="4301"/><use xlink:href="#g18" y="4318"/><use xlink:href="#g19" y="4335"/><use xlink:href="#g20" y="4352"/><rect x="0" y="4369" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="4369"/></g><g><use xlink:href="#g15" y="4522"/><use xlink:href="#g17" y="4539"/><use xlink:href="#g18" y="4556"/><use xlink:href="#g19" y="4573"/><use xlink:href="#g20" y="4590"/><rect x="16" y="4607" width="8" height="17" class="foreground"/><use xlink:href="#g1" y="4607"/></g><g><use xlink:href="#g15" y="4760"/><use xlink:href="#g17" y="4777"/><use xlink:href="#g18" y="4794"/><use xlink:href="#g19" y="4811"/><use xlink:href="#g20" y="4828"/><use xlink:href="#g21" y="4845"/><rect x="0" y="4862" width="8" height="17" class="foreground"/><use xlink:href="#g16" y="4862"/></g></g></svg>
+    <rect id="progress-bar" width="100%" height="5" class="color1"/>
+</svg>

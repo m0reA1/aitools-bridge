@@ -1,0 +1,46 @@
+[project]
+name = "aitools-bridge"
+version = "0.0.1"
+description = "aitools-bridge is a minimalist framework (or a decorator) designed to seamlessly integrate existing tools with the advanced AI ecosystem."
+authors = [
+    {name = "m0reA1",email = "more.aitools@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "griffe (==1.6.0)",
+    "jsonref (==1.1.0)",
+    "pydantic (==2.10.6)"
+]
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries",
+]
+
+
+[project.urls]
+homepage = "https://github.com/m0reA1/aitools-bridge"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+packages = [
+    { include = "bridge", from = "src" },
+]
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.5"
+ruff = "^0.11.0"
+
+
+[tool.poetry.group.example.dependencies]
+openai = "^1.66.3"
+requests = "^2.32.3"

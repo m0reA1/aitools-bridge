@@ -33,7 +33,7 @@
   - [Development](#development)
   - [License](#license)
   - [Acknowledgements](#acknowledgements)
-- [Citation](#citation)
+  - [Citation](#citation)
   - [Contacts](#contacts)
 
 </details>
@@ -177,7 +177,7 @@ This project is licensed under the **Apache License V2.0**. See [LICENSE](LICENS
 - [pydantic](https://github.com/pydantic/pydantic)
 - [poetry](https://github.com/python-poetry/poetry)
 
-## Citation
+### Citation
 ---
 
 If you use [**aitools-bridge**](https://github.com/m0reA1/aitools-bridge) in your project, please cite:
